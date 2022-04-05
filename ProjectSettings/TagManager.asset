@@ -11,7 +11,7 @@ TagManager:
   - tile
   - Water
   - UI
-  - wall
+  - colliderTile
   - 
   - 
   - 
