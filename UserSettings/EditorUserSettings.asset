@@ -18,12 +18,18 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036c781819040c192f2d2835633c133af6f9
       flags: 0
     RecentlyUsedScenePath-4:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c72110414132f3f1b2535232c5326ece92021
       flags: 0
     RecentlyUsedScenePath-5:
       value: 22424703114646680e0b0227036c7211181017192f2d2835633c133af6f9
       flags: 0
     RecentlyUsedScenePath-6:
+=======
+      value: 22424703114646680e0b0227036c7211181017192f2d2835633c133af6f9
+      flags: 0
+    RecentlyUsedScenePath-5:
+>>>>>>> parent of 36ae7d5 (New files were adddes)
       value: 22424703114646680e0b0227036c581819040c192f2d2835633c133af6f9
       flags: 0
     vcSharedLogLevel:
