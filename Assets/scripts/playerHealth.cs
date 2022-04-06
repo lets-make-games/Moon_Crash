@@ -19,16 +19,26 @@ public class playerHealth : MonoBehaviour
         {
             Health = HearthsCount;
         }
-
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    /* private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemy"))
         {
             Health--;
             HealthLoss();
         }
+    } */
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("enemy"))
+        {
+            Health--;
+            HealthLoss();
+        }
     }
+
     void HealthLoss()
     {
         if (Health == 0)

@@ -11,9 +11,7 @@ public class movement : MonoBehaviour
     private void Start()
     {
         movePoint.parent = null;
-
     }
-
     private void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
