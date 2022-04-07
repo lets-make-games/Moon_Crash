@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 863c741dc10c58c4a93ac27107e276a9
+guid: fca33d26eae29e44d9af22027359894e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -921381650244937719
-    second: spacegame 3_0
+      213: -3364000023061652942
+    second: Side_Left_0
   - first:
-      213: -902998759939774507
-    second: spacegame 3_1
+      213: -2139620975975247983
+    second: Side_Left_1
   - first:
-      213: 7182934174635411121
-    second: spacegame 3_2
+      213: 5676706843498069387
+    second: Side_Left_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spacegame 3_0
+      name: Side_Left_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32.666664
-        width: 15
-        height: 16.333334
+        y: 32
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,20 +114,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 908569255489633f0800000000000000
-      internalID: -921381650244937719
+      spriteID: 23a11016dcba051d0800000000000000
+      internalID: -3364000023061652942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spacegame 3_1
+      name: Side_Left_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 16.666666
-        width: 15
-        height: 16.333334
+        y: 16
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d7eb218967e773f0800000000000000
-      internalID: -902998759939774507
+      spriteID: 19f450dfe0a8e42e0800000000000000
+      internalID: -2139620975975247983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spacegame 3_2
+      name: Side_Left_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.66666603
-        width: 15
-        height: 16.333334
+        y: 0
+        width: 13
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b648243398eea360800000000000000
-      internalID: 7182934174635411121
+      spriteID: b8d3bb43cc6b7ce40800000000000000
+      internalID: 5676706843498069387
       vertices: []
       indices: 
       edges: []
