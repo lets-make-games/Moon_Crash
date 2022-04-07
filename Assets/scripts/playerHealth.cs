@@ -12,7 +12,10 @@ public class playerHealth : MonoBehaviour
     public Sprite FullHearts;
     public Sprite EmptyHearts;
 
-
+    private void Start()
+    {
+        Health = HearthsCount;
+    }
     private void Update()
     {
         if (Health > HearthsCount)   //health limit  put it out after gaining is determ

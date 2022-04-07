@@ -8,9 +8,12 @@ public class movement : MonoBehaviour
     public Transform movePoint;
 
     public LayerMask WhatIsSolid;
+
+
     private void Start()
     {
         movePoint.parent = null;
+
     }
     private void Update()
     {
