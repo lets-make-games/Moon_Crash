@@ -1,16 +1,7 @@
 fileFormatVersion: 2
-guid: ce0e317d8d310494b9ea6be5c94ad968
+guid: 4f66adb7a18a64f469cf502a3b18625d
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 5132239745898899440
-    second: Soldier run Side ( Left )_0
-  - first:
-      213: -1112923112423664659
-    second: Soldier run Side ( Left )_1
-  - first:
-      213: 1733136351400247708
-    second: Soldier run Side ( Left )_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -98,70 +89,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Soldier run Side ( Left )_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 34
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f7e17c6bd0693740800000000000000
-      internalID: 5132239745898899440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Soldier run Side ( Left )_1
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 18
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de35aa5635a1e80f0800000000000000
-      internalID: -1112923112423664659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Soldier run Side ( Left )_2
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 2
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c91478c34565d0810800000000000000
-      internalID: 1733136351400247708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

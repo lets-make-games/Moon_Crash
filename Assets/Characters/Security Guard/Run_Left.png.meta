@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 411e7f34d1dd58445b41635e2417cfb9
+guid: 863c741dc10c58c4a93ac27107e276a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7155187176179521443
-    second: Soldier run Back_0
+      213: -921381650244937719
+    second: spacegame 3_0
   - first:
-      213: -1984069484015780849
-    second: Soldier run Back_1
+      213: -902998759939774507
+    second: spacegame 3_1
   - first:
-      213: -8387865551673066295
-    second: Soldier run Back_2
+      213: 7182934174635411121
+    second: spacegame 3_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldier run Back_0
+      name: spacegame 3_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 34
-        width: 9
-        height: 14
+        x: 0
+        y: 32.666664
+        width: 15
+        height: 16.333334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,20 +114,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a75c91b3d45c4360800000000000000
-      internalID: 7155187176179521443
+      spriteID: 908569255489633f0800000000000000
+      internalID: -921381650244937719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier run Back_1
+      name: spacegame 3_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 18
-        width: 10
-        height: 13
+        x: 0
+        y: 16.666666
+        width: 15
+        height: 16.333334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0cfb8bf05b2774e0800000000000000
-      internalID: -1984069484015780849
+      spriteID: 5d7eb218967e773f0800000000000000
+      internalID: -902998759939774507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier run Back_2
+      name: spacegame 3_2
       rect:
         serializedVersion: 2
-        x: 4
-        y: 2
-        width: 9
-        height: 14
+        x: 0
+        y: 0.66666603
+        width: 15
+        height: 16.333334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc7ac8b8b0589b80800000000000000
-      internalID: -8387865551673066295
+      spriteID: 1b648243398eea360800000000000000
+      internalID: 7182934174635411121
       vertices: []
       indices: 
       edges: []

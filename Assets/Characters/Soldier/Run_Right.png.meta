@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 816aa530685c0b14c88bcf8fe1bff529
+guid: ba80fe42876b9f54a9ef0e0431b4148c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 664276890381654329
-    second: Soldier run front_0
+      213: 2083350136056013113
+    second: Side_Right_0
   - first:
-      213: 3074639199213350617
-    second: Soldier run front_1
+      213: -7422223553661189608
+    second: Side_Right_1
   - first:
-      213: -7217375473689726550
-    second: Soldier run front_2
+      213: 2955349086610411985
+    second: Side_Right_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldier run front_0
+      name: Side_Right_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 33
-        width: 10
-        height: 14
+        x: 0
+        y: 32
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,20 +114,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93913b3ff4cf73900800000000000000
-      internalID: 664276890381654329
+      spriteID: 931616229eb89ec10800000000000000
+      internalID: 2083350136056013113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier run front_1
+      name: Side_Right_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 17
-        width: 11
-        height: 13
+        x: 0
+        y: 16
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9de6a91cf005baa20800000000000000
-      internalID: 3074639199213350617
+      spriteID: 812cc78a007fef890800000000000000
+      internalID: -7422223553661189608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier run front_2
+      name: Side_Right_2
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 10
-        height: 14
+        x: 0
+        y: 0
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa17b18fe3bb6db90800000000000000
-      internalID: -7217375473689726550
+      spriteID: 1d150be0652830920800000000000000
+      internalID: 2955349086610411985
       vertices: []
       indices: 
       edges: []

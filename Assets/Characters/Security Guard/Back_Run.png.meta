@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 8d4c3d8f31d83b8498cf70772135f655
+guid: f1298cb6d7dd0a440a47e91998c8be99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6263656194817762492
-    second: Soldier run Side ( Rigth )_0
+      213: -4744192196180122878
+    second: spacegame_0
   - first:
-      213: -704960654083659500
-    second: Soldier run Side ( Rigth )_1
+      213: -7452457052738204261
+    second: spacegame_1
   - first:
-      213: -1209141627978562037
-    second: Soldier run Side ( Rigth )_2
+      213: 6112619454763373228
+    second: spacegame_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldier run Side ( Rigth )_0
+      name: spacegame_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 33
-        width: 8
-        height: 14
+        x: 0
+        y: 33.333336
+        width: 16
+        height: 16.666666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,20 +114,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44b56b880e50319a0800000000000000
-      internalID: -6263656194817762492
+      spriteID: 203e088555e392eb0800000000000000
+      internalID: -4744192196180122878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier run Side ( Rigth )_1
+      name: spacegame_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 17
-        width: 8
-        height: 13
+        x: 0
+        y: 17.333334
+        width: 16
+        height: 16.666666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41967b8250a7736f0800000000000000
-      internalID: -704960654083659500
+      spriteID: b9d4fab9bcd839890800000000000000
+      internalID: -7452457052738204261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Soldier run Side ( Rigth )_2
+      name: spacegame_2
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 8
-        height: 14
+        x: 0
+        y: 1.333334
+        width: 16
+        height: 16.666666
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b06433d7814483fe0800000000000000
-      internalID: -1209141627978562037
+      spriteID: ca21050120364d450800000000000000
+      internalID: 6112619454763373228
       vertices: []
       indices: 
       edges: []
