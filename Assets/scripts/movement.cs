@@ -27,17 +27,10 @@ public class movement : MonoBehaviour
 
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f)
         {
-            animator.SetFloat("Speed", Mathf.Abs(HorInput + VerInput));  //set hor and ver parameters
+            animator.SetFloat("Speed", Mathf.Abs(HorInput) + Mathf.Abs(VerInput));  //set hor and ver parameters
 
 
-            if (HorInput == 0f)  //idle
-            {
-                animator.SetFloat("Horizontal", 0f);
-            }
-            else if (VerInput == 0f)  //idle
-            {
-                animator.SetFloat("Vertical", 0f);
-            }
+            
 
 
             if (HorInput == 1f)  //moving right
@@ -76,7 +69,15 @@ public class movement : MonoBehaviour
                     animator.SetFloat("Vertical", -1f);
                 }
             }
-
+            if (VerInput == 0f)  //idle
+            {
+                animator.SetFloat("Vertical", 0f);
+            }
+            else if (HorInput == 0f)  //idle
+            {
+                animator.SetFloat("Horizontal", 0f);
+            }
+            
         }
     }
 }
