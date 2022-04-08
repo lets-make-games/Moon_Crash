@@ -23,7 +23,7 @@ public class movement : MonoBehaviour
 
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f)
         {
-            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
+            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f) 
             {
                 if (!Physics2D.OverlapCircle(movePoint.position + HorozontalInput, 0.2f, WhatIsSolid))
                 {
