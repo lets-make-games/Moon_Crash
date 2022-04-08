@@ -5,7 +5,6 @@ using UnityEngine;
 public class door : MonoBehaviour
 {
     public GameObject Door;
-    bool open = false;
 
     private Animator Animator;
 
@@ -17,7 +16,6 @@ public class door : MonoBehaviour
     {
         if (collision.gameObject.tag == "Engineer")
         {
-            open = true;
             Animator.SetBool("isOpen", true);  //open animation
         }
     }
@@ -25,7 +23,6 @@ public class door : MonoBehaviour
     {
         if (collision.gameObject.tag == "Engineer")
         {
-            open = false;
             Animator.SetBool("isOpen", false);  //close animation
         }
     }
