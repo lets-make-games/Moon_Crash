@@ -8,12 +8,8 @@ public class playerHealth : MonoBehaviour
     public int Health;
     public int HearthsCount = 3;
 
-    /*public Image[] hearts;
-    public Sprite FullHearts;
-    public Sprite EmptyHearts;*/
     public Image fullHealth;
     public Image halfHealth;
-
 
     public GameObject movepoint;
 
@@ -21,15 +17,6 @@ public class playerHealth : MonoBehaviour
     private void Start()
     {
         Health = HearthsCount;
-
-
-    }
-    private void Update()
-    {
-        if (Health > HearthsCount)   //health limit  put it out after gaining is determ
-        {
-            Health = HearthsCount;
-        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -41,7 +28,6 @@ public class playerHealth : MonoBehaviour
             movepoint.transform.position = transform.position - knockBack;
         }
     }
-
 
     void HealthLoss()
     {
@@ -57,21 +43,5 @@ public class playerHealth : MonoBehaviour
         {
             halfHealth.enabled = false;
         }
-        /*for (int i = 0; i < hearts.Length; i++)
-        {
-            if (i < Health)
-            {
-                hearts[i].sprite = FullHearts;
-            }
-            else { hearts[i].sprite = EmptyHearts; }
-
-
-            if (i < HearthsCount)
-            {
-                hearts[i].enabled = true;
-            }
-            else { hearts[i].enabled = false; }
-        }*/
-
     }
 }
