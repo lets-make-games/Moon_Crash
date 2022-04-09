@@ -5,21 +5,18 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     public float Speed = 0f;
-    private Transform target;
-    public GameObject tar;
+    public Transform[] target;
     public float Stopping_Distance;
 
-
-    void Start()
-    {
-        target = tar.GetComponent<Transform>();
-        
-    }
     void Update()
     {
-        if (Vector2.Distance(transform.position,target.position) < Stopping_Distance)
+        for (int i = 0; i < target.Length; i++)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target.position, Speed * Time.deltaTime);
+            if (Vector2.Distance(transform.position, target[i].position) < Stopping_Distance)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, target[i].position, Speed * Time.deltaTime);
+            }
         }
+
     }
 }

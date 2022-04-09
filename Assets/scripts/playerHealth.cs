@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class playerHealth : MonoBehaviour
 {
     public int Health;
-    public int HearthsCount = 3;
 
     public Image fullHealth;
     public Image halfHealth;
@@ -14,10 +13,7 @@ public class playerHealth : MonoBehaviour
     public GameObject movepoint;
 
     private Vector3 knockBack;
-    private void Start()
-    {
-        Health = HearthsCount;
-    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemy"))

@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+public class characterSelection : MonoBehaviour
+{
+    private GameObject engineer;
+    private void Start()
+    {
+        engineer = GameObject.FindGameObjectWithTag("Engineer");
+    }
+    public void PoliceSelection()
+    {
+        PlayerPrefs.SetInt("character", 2);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
+    public void engineerSelection()
+    {
+        PlayerPrefs.SetInt("character", 1);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
+    public void SecuritySelection()
+    {
+        PlayerPrefs.SetInt("character", 0);
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
+}
