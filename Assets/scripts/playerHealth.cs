@@ -19,9 +19,9 @@ public class playerHealth : MonoBehaviour
         if (collision.CompareTag("enemy"))
         {
             Health--;
-            HealthLoss();
             knockBack = collision.transform.position - transform.position;
             movepoint.transform.position = transform.position - knockBack;
+            HealthLoss();
         }
     }
 
@@ -39,5 +39,8 @@ public class playerHealth : MonoBehaviour
         {
             halfHealth.enabled = false;
         }
+        float newx = Mathf.Round(movepoint.transform.position.x);
+        float newy = Mathf.Round(movepoint.transform.position.y);
+        movepoint.transform.position = new Vector2(newx, newy);
     }
 }

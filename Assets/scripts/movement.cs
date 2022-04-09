@@ -74,7 +74,7 @@ public class movement : MonoBehaviour
             {
                 animator.SetFloat("Horizontal", 0f);
             }
-            
+
         }
     }
 }
