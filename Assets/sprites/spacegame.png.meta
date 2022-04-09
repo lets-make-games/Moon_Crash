@@ -1,0 +1,996 @@
+fileFormatVersion: 2
+guid: 94eb423d676990040b65711248a3ee15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5022793927893095936
+    second: spacegame_13
+  - first:
+      213: 7868346560377944950
+    second: spacegame_22
+  - first:
+      213: 4595449034576797108
+    second: spacegame_23
+  - first:
+      213: 4663919689764023627
+    second: spacegame_24
+  - first:
+      213: 2563688577418154969
+    second: spacegame_25
+  - first:
+      213: -9220021170774274280
+    second: spacegame_27
+  - first:
+      213: 5415673579663913888
+    second: spacegame_28
+  - first:
+      213: -2651159729911648446
+    second: spacegame_29
+  - first:
+      213: 4552528840556313526
+    second: spacegame_30
+  - first:
+      213: -1875714266162078063
+    second: spacegame_31
+  - first:
+      213: -6660087999839099143
+    second: spacegame_32
+  - first:
+      213: 7086490676905415396
+    second: spacegame_34
+  - first:
+      213: -1676793997484331482
+    second: spacegame_35
+  - first:
+      213: 1384927610488764491
+    second: spacegame_36
+  - first:
+      213: -5623487507985276111
+    second: spacegame_37
+  - first:
+      213: -3739115577784003954
+    second: spacegame_38
+  - first:
+      213: 8491688637867863766
+    second: spacegame_39
+  - first:
+      213: 5453971007426724917
+    second: spacegame_40
+  - first:
+      213: -1980664060487478218
+    second: spacegame_41
+  - first:
+      213: 3532761726744327344
+    second: spacegame_42
+  - first:
+      213: 5882704060978212864
+    second: spacegame_43
+  - first:
+      213: 2554119148308604356
+    second: spacegame_44
+  - first:
+      213: -2798845983305622251
+    second: spacegame_45
+  - first:
+      213: 6618523662497756628
+    second: spacegame_46
+  - first:
+      213: 3719074873119033183
+    second: spacegame_47
+  - first:
+      213: 3892419762076029428
+    second: spacegame_48
+  - first:
+      213: 3698534470775849029
+    second: spacegame_49
+  - first:
+      213: -3094212831881128343
+    second: spacegame_50
+  - first:
+      213: 9183093079476808459
+    second: spacegame_51
+  - first:
+      213: -6723441707324954597
+    second: spacegame_52
+  - first:
+      213: 5847504317553201097
+    second: spacegame_53
+  - first:
+      213: 7970061800629740577
+    second: spacegame_54
+  - first:
+      213: 3639162007471667378
+    second: spacegame_55
+  - first:
+      213: 5204115862527815970
+    second: spacegame_56
+  - first:
+      213: 8349641296808144064
+    second: spacegame_57
+  - first:
+      213: 6309062361522249297
+    second: spacegame_58
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spacegame_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0069e0c277c84b540800000000000000
+      internalID: 5022793927893095936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 259
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b7ef4228bf13d60800000000000000
+      internalID: 7868346560377944950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 244
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd9c599c8056cf30800000000000000
+      internalID: 4595449034576797108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 262
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4da5515f3299b040800000000000000
+      internalID: 4663919689764023627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 261
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d35cbb9d2d049320800000000000000
+      internalID: 2563688577418154969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_27
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 225
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f0b6e4897eb0080800000000000000
+      internalID: -9220021170774274280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 227
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3f55f5d66582b40800000000000000
+      internalID: 5415673579663913888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 243
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fabc7a540353bd0800000000000000
+      internalID: -2651159729911648446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_30
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 227
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb74133cd4dd2f30800000000000000
+      internalID: 4552528840556313526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 242
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ed64910df18f5e0800000000000000
+      internalID: -1875714266162078063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 226
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6afb4304d9293a0800000000000000
+      internalID: -6660087999839099143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 208
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2901d89b5485260800000000000000
+      internalID: 7086490676905415396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_35
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e607a4eb4dab8e0800000000000000
+      internalID: -1676793997484331482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_36
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 144
+        width: 116
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4830d6f250483310800000000000000
+      internalID: 1384927610488764491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133e0bfe7eb55f1b0800000000000000
+      internalID: -5623487507985276111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_38
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 192
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e821e04513efb1cc0800000000000000
+      internalID: -3739115577784003954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_39
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 194
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dea55343d988d570800000000000000
+      internalID: 8491688637867863766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 194
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53403f02cb560bb40800000000000000
+      internalID: 5453971007426724917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634d24fe7844384e0800000000000000
+      internalID: -1980664060487478218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_42
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 178
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4f0b6b214e60130800000000000000
+      internalID: 3532761726744327344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000ba51fc2093a150800000000000000
+      internalID: 5882704060978212864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_44
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 160
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c525f445dd027320800000000000000
+      internalID: 2554119148308604356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 163
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d1a0838608829d0800000000000000
+      internalID: -2798845983305622251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d532b06438b9db50800000000000000
+      internalID: 6618523662497756628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_47
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 147
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57475184eecc9330800000000000000
+      internalID: 3719074873119033183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 128
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f190439627a40630800000000000000
+      internalID: 3892419762076029428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_49
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 131
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540c1286185d35330800000000000000
+      internalID: 3698534470775849029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_50
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 128
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9661540c2d52f05d0800000000000000
+      internalID: -3094212831881128343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 128
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b209d6086e07f70800000000000000
+      internalID: 9183093079476808459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_52
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 129
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18a9d6b36981b2a0800000000000000
+      internalID: -6723441707324954597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 129
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf42560232862150800000000000000
+      internalID: 5847504317553201097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 129
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12422700bf85b9e60800000000000000
+      internalID: 7970061800629740577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8327f8096e08230800000000000000
+      internalID: 3639162007471667378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_56
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22132fbedcbb83840800000000000000
+      internalID: 5204115862527815970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc6e2a6582efd370800000000000000
+      internalID: 8349641296808144064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_58
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 173
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e125c7aca4e8750800000000000000
+      internalID: 6309062361522249297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

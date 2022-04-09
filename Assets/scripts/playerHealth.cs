@@ -8,9 +8,12 @@ public class playerHealth : MonoBehaviour
     public int Health;
     public int HearthsCount = 3;
 
-    public Image[] hearts;
+    /*public Image[] hearts;
     public Sprite FullHearts;
-    public Sprite EmptyHearts;
+    public Sprite EmptyHearts;*/
+    public Image fullHealth;
+    public Image halfHealth;
+
 
     public GameObject movepoint;
 
@@ -46,7 +49,15 @@ public class playerHealth : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
-        for (int i = 0; i < hearts.Length; i++)
+        else if (Health == 2)
+        {
+            fullHealth.enabled = false;
+        }
+        else if (Health == 1)
+        {
+            halfHealth.enabled = false;
+        }
+        /*for (int i = 0; i < hearts.Length; i++)
         {
             if (i < Health)
             {
@@ -60,7 +71,7 @@ public class playerHealth : MonoBehaviour
                 hearts[i].enabled = true;
             }
             else { hearts[i].enabled = false; }
-        }
+        }*/
 
     }
 }

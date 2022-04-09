@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 119370281}
   - component: {fileID: 119370280}
   m_Layer: 5
-  m_Name: heart (2)
+  m_Name: fullHealth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -189,8 +189,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -557, y: 353}
-  m_SizeDelta: {x: 43.994, y: 43.994}
+  m_AnchoredPosition: {x: -611.50006, y: 353}
+  m_SizeDelta: {x: 152.99, y: 43.994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119370280
 MonoBehaviour:
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1564688358316481467, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
+  m_Sprite: {fileID: 3639162007471667378, guid: 94eb423d676990040b65711248a3ee15, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -402,7 +402,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.011933804, y: 0.005966842}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -413,7 +413,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8925953, y: 0.95226467}
   m_EdgeRadius: 0
 --- !u!114 &418019087
 MonoBehaviour:
@@ -429,12 +429,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 3
   HearthsCount: 3
-  hearts:
-  - {fileID: 1806960584}
-  - {fileID: 890460858}
-  - {fileID: 119370280}
-  FullHearts: {fileID: 1564688358316481467, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
-  EmptyHearts: {fileID: 8522625820373494394, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
+  fullHealth: {fileID: 119370280}
+  halfHealth: {fileID: 890460858}
+  movepoint: {fileID: 486128021}
 --- !u!114 &418019088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,7 +508,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418019083}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.15, y: -1.51, z: 11.479545}
+  m_LocalPosition: {x: -3, y: -1.5, z: 11.479545}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 486128022}
@@ -1687,7 +1684,7 @@ GameObject:
   - component: {fileID: 890460859}
   - component: {fileID: 890460858}
   m_Layer: 5
-  m_Name: heart (1)
+  m_Name: halfHealth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1709,8 +1706,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -611, y: 353.00003}
-  m_SizeDelta: {x: 43.994, y: 43.994}
+  m_AnchoredPosition: {x: -611.4996, y: 353.00003}
+  m_SizeDelta: {x: 152.99, y: 43.994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &890460858
 MonoBehaviour:
@@ -1732,7 +1729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1564688358316481467, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
+  m_Sprite: {fileID: 5204115862527815970, guid: 94eb423d676990040b65711248a3ee15, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1851,7 +1848,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00000011920929, y: -0.03393936}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1862,7 +1859,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7362764, y: 0.8497076}
   m_EdgeRadius: 0
 --- !u!50 &931993918
 Rigidbody2D:
@@ -1900,6 +1897,9 @@ MonoBehaviour:
   speed: 4
   distance: 0.1
   groundDetection: {fileID: 1944821186}
+  whatIsSolid:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &931993920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2248,12 +2248,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 3
   HearthsCount: 3
-  hearts:
-  - {fileID: 1806960584}
-  - {fileID: 890460858}
-  - {fileID: 119370280}
-  FullHearts: {fileID: 1564688358316481467, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
-  EmptyHearts: {fileID: 8522625820373494394, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
+  fullHealth: {fileID: 0}
+  halfHealth: {fileID: 0}
+  movepoint: {fileID: 0}
 --- !u!114 &1024737910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3492,7 +3489,7 @@ GameObject:
   - component: {fileID: 1806960585}
   - component: {fileID: 1806960584}
   m_Layer: 5
-  m_Name: heart
+  m_Name: lessHealth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3514,8 +3511,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -666, y: 353.00003}
-  m_SizeDelta: {x: 43.994, y: 43.994}
+  m_AnchoredPosition: {x: -611.5, y: 353.00003}
+  m_SizeDelta: {x: 152.99, y: 43.994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1806960584
 MonoBehaviour:
@@ -3537,7 +3534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1564688358316481467, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
+  m_Sprite: {fileID: 8349641296808144064, guid: 94eb423d676990040b65711248a3ee15, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3730,12 +3727,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Health: 3
   HearthsCount: 3
-  hearts:
-  - {fileID: 1806960584}
-  - {fileID: 890460858}
-  - {fileID: 119370280}
-  FullHearts: {fileID: 1564688358316481467, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
-  EmptyHearts: {fileID: 8522625820373494394, guid: 0bef3a42230c47443b2d7ec185c24ac9, type: 3}
+  fullHealth: {fileID: 0}
+  halfHealth: {fileID: 0}
+  movepoint: {fileID: 0}
 --- !u!114 &2280788226056343374
 MonoBehaviour:
   m_ObjectHideFlags: 0
