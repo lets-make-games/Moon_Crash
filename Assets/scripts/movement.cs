@@ -30,9 +30,6 @@ public class movement : MonoBehaviour
             animator.SetFloat("Speed", Mathf.Abs(HorInput) + Mathf.Abs(VerInput));  //set hor and ver parameters
 
 
-            
-
-
             if (HorInput == 1f)  //moving right
             {
 

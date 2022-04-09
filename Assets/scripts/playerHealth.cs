@@ -12,9 +12,14 @@ public class playerHealth : MonoBehaviour
     public Sprite FullHearts;
     public Sprite EmptyHearts;
 
+    public GameObject movepoint;
+
+    private Vector3 knockBack;
     private void Start()
     {
         Health = HearthsCount;
+
+
     }
     private void Update()
     {
@@ -29,10 +34,10 @@ public class playerHealth : MonoBehaviour
         {
             Health--;
             HealthLoss();
+            knockBack = collision.transform.position - transform.position;
+            movepoint.transform.position = transform.position - knockBack;
         }
     }
-
-
 
 
     void HealthLoss()
@@ -56,5 +61,6 @@ public class playerHealth : MonoBehaviour
             }
             else { hearts[i].enabled = false; }
         }
+
     }
 }
