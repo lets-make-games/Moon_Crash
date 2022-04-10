@@ -9,9 +9,9 @@ public class characterSelection : MonoBehaviour
     {
         engineer = GameObject.FindGameObjectWithTag("Engineer");
     }
-    public void SoldierSelection()
+    public void PoliceSelection()
     {
-        PlayerPrefs.SetInt("character", 0);
+        PlayerPrefs.SetInt("character", 2);
         SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
     public void engineerSelection()
@@ -21,7 +21,7 @@ public class characterSelection : MonoBehaviour
     }
     public void SecuritySelection()
     {
-        PlayerPrefs.SetInt("character", 2);
+        PlayerPrefs.SetInt("character", 0);
         SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
 }
