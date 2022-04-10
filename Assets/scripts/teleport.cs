@@ -6,7 +6,12 @@ public class teleport : MonoBehaviour
 {
     public Transform teleportTo;
     private GameObject movepoint;
+    private AudioSource teleportSound;
 
+    private void Start()
+    {
+        teleportSound = GetComponent<AudioSource>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         movepoint = GameObject.FindGameObjectWithTag("movePoint");  //define movepoint
@@ -20,7 +25,8 @@ public class teleport : MonoBehaviour
 
         IEnumerator time()
         {
-            yield return new WaitForSeconds(2);
+            teleportSound.Play(0);  //sound
+            yield return new WaitForSeconds(3);  //timer
 
             movepoint.transform.position = teleportTo.transform.position;  //move the point
             collision.transform.position = teleportTo.transform.position;  //move the player
