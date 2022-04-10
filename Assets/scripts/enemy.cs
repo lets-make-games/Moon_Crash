@@ -5,4 +5,5 @@ using UnityEngine;
 public class enemy : MonoBehaviour
 {
     public int Health;
+    //Code For Health
 }
