@@ -2271,11 +2271,11 @@ PrefabInstance:
     - target: {fileID: 6493146364457040794, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: fullHealth
       value: 
-      objectReference: {fileID: 890460858}
+      objectReference: {fileID: 119370280}
     - target: {fileID: 6493146364457040794, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: halfHealth
       value: 
-      objectReference: {fileID: 119370280}
+      objectReference: {fileID: 890460858}
     - target: {fileID: 6493146364457040797, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: spawnPoints.Array.data[0]
       value: 

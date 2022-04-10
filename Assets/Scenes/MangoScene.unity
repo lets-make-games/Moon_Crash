@@ -336,6 +336,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6493146364457040799, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
   m_PrefabInstance: {fileID: 130024317}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &130024328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5024529518757131951, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+  m_PrefabInstance: {fileID: 130024317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &130024329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5024529518288012229, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+  m_PrefabInstance: {fileID: 130024317}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &130024330 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6493146364457040796, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+  m_PrefabInstance: {fileID: 130024317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &539595919
 GameObject:
   m_ObjectHideFlags: 0
@@ -39202,11 +39217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3611585517268086416, guid: 408e9a37e02c6d3459a50524a0fb821c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.74
+      value: 2.65
       objectReference: {fileID: 0}
     - target: {fileID: 3611585517268086416, guid: 408e9a37e02c6d3459a50524a0fb821c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.85
+      value: -11.67
       objectReference: {fileID: 0}
     - target: {fileID: 3611585517268086416, guid: 408e9a37e02c6d3459a50524a0fb821c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39244,6 +39259,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alien
       objectReference: {fileID: 0}
+    - target: {fileID: 3611585517268086508, guid: 408e9a37e02c6d3459a50524a0fb821c, type: 3}
+      propertyPath: target.Array.data[0]
+      value: 
+      objectReference: {fileID: 130024330}
+    - target: {fileID: 3611585517268086508, guid: 408e9a37e02c6d3459a50524a0fb821c, type: 3}
+      propertyPath: target.Array.data[1]
+      value: 
+      objectReference: {fileID: 130024328}
+    - target: {fileID: 3611585517268086508, guid: 408e9a37e02c6d3459a50524a0fb821c, type: 3}
+      propertyPath: target.Array.data[2]
+      value: 
+      objectReference: {fileID: 130024329}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 408e9a37e02c6d3459a50524a0fb821c, type: 3}
 --- !u!1001 &1753187957
