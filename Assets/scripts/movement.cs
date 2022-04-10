@@ -10,6 +10,7 @@ public class movement : MonoBehaviour
     public LayerMask WhatIsSolid;
 
     private Animator animator;
+
     private void Start()
     {
         movePoint.parent = null;
@@ -74,7 +75,6 @@ public class movement : MonoBehaviour
             {
                 animator.SetFloat("Horizontal", 0f);
             }
-
         }
     }
 }

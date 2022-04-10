@@ -17,6 +17,5 @@ public class EnemyAI : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, target[i].position, Speed * Time.deltaTime);
             }
         }
-
     }
 }

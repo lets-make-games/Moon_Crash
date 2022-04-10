@@ -8,6 +8,7 @@ TagManager:
   - Engineer
   - Soldier
   - Security
+  - movePoint
   layers:
   - Default
   - TransparentFX

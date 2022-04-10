@@ -12,6 +12,4 @@ public class Spawn : MonoBehaviour
         transform.position = spawnPoints[spawnRand].position;
         MovePoint.transform.position = spawnPoints[spawnRand].position;
     }
-
-
 }
