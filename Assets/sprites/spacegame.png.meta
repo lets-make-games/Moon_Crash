@@ -110,6 +110,9 @@ TextureImporter:
   - first:
       213: 6309062361522249297
     second: spacegame_58
+  - first:
+      213: -4744192196180122878
+    second: spacegame_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -932,6 +935,27 @@ TextureImporter:
       bones: []
       spriteID: 15e125c7aca4e8750800000000000000
       internalID: 6309062361522249297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacegame_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203e088555e392eb0800000000000000
+      internalID: -4744192196180122878
       vertices: []
       indices: 
       edges: []

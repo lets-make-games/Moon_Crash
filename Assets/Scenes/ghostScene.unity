@@ -3114,6 +3114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Engineer
       objectReference: {fileID: 0}
+    - target: {fileID: 632293808142373844, guid: c785b7c7c2008a242a0ab0f5615ee19d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5079986956216087736, guid: c785b7c7c2008a242a0ab0f5615ee19d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
