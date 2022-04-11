@@ -14,6 +14,7 @@ public class playerHealth : MonoBehaviour
 
     private Vector3 knockBack;
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemy"))
@@ -42,5 +43,6 @@ public class playerHealth : MonoBehaviour
         float newx = Mathf.Round(movepoint.transform.position.x);
         float newy = Mathf.Round(movepoint.transform.position.y);
         movepoint.transform.position = new Vector2(newx, newy);
+        GetComponent<AudioSource>().Play();
     }
 }
