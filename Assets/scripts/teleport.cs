@@ -8,37 +8,29 @@ public class teleport : MonoBehaviour
     private GameObject movepoint;
     private AudioSource teleportSound;
 
-    private Animator camAnim;
     private void Start()
     {
         teleportSound = GetComponent<AudioSource>();
     }
-    public void OnTriggerEnter2D(Collider2D colli)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         movepoint = GameObject.FindGameObjectWithTag("movePoint");  //define movepoint
 
         movepoint.transform.position = gameObject.GetComponent<Renderer>().bounds.center;
-        colli.transform.position = gameObject.GetComponent<Renderer>().bounds.center;
+        collision.transform.position = gameObject.GetComponent<Renderer>().bounds.center;
 
-        colli.GetComponent<movement>().enabled = false;  //disable movement
+        collision.GetComponent<movement>().enabled = false;  //disable movement
 
         StartCoroutine(time());
 
         IEnumerator time()
         {
-            camAnim = colli.GetComponent<Animator>(); //cam shake
-            camAnim.SetBool("teleporting", true);
-
             teleportSound.Play(0);  //sound
             yield return new WaitForSeconds(3);  //timer
 
             movepoint.transform.position = teleportTo.transform.position;  //move the point
-            colli.transform.position = teleportTo.transform.position;  //move the player
-            colli.GetComponent<movement>().enabled = true; //enable movement
-
-            camAnim.SetBool("teleporting", false);
+            collision.transform.position = teleportTo.transform.position;  //move the player
+            collision.GetComponent<movement>().enabled = true; //enable movement
         }
     }
-
-
 }

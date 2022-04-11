@@ -2228,10 +2228,6 @@ PrefabInstance:
       propertyPath: halfHealth
       value: 
       objectReference: {fileID: 890460858}
-    - target: {fileID: 5024529518757131942, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5024529518757131950, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: spawnPoints.Array.data[0]
       value: 
@@ -2294,11 +2290,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5024529518971853807, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.947772
       objectReference: {fileID: 0}
     - target: {fileID: 5024529518971853807, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.019356
       objectReference: {fileID: 0}
     - target: {fileID: 6493146363792432229, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: m_TagString
@@ -2441,10 +2437,6 @@ PrefabInstance:
     - target: {fileID: 8954590230536418159, guid: 86f7399f1c24e5543aa314078e0faf29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8954590231987937722, guid: 86f7399f1c24e5543aa314078e0faf29, type: 3}
-      propertyPath: m_Volume
-      value: 0.189
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86f7399f1c24e5543aa314078e0faf29, type: 3}
