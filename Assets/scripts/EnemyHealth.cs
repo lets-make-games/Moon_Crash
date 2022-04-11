@@ -36,7 +36,7 @@ public class EnemyHealth : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Bullet")
+        if (collision.tag == "bullet")
         {
             Debug.Log("Trigger");
 
