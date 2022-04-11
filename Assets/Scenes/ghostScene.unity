@@ -2180,17 +2180,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5024529517357379095, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_TagString
-      value: movePoint
+    - target: {fileID: 793566054996796592, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5024529517482763009, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_Name
-      value: Main Camera
+    - target: {fileID: 793566054996796592, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5024529518222003522, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_TagString
-      value: movePoint
+    - target: {fileID: 793566054996796592, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 793566054996796592, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 793566054996796592, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 793566054996796592, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 793566054996796592, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5024529518288012228, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: spawnPoints.Array.data[0]
@@ -2212,14 +2228,6 @@ PrefabInstance:
       propertyPath: halfHealth
       value: 
       objectReference: {fileID: 890460858}
-    - target: {fileID: 5024529518288012252, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024529518547766337, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_Name
-      value: Main Camera
-      objectReference: {fileID: 0}
     - target: {fileID: 5024529518757131938, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: fullHealth
       value: 
@@ -2288,18 +2296,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: characters
       objectReference: {fileID: 0}
-    - target: {fileID: 5024529518971853807, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.947772
-      objectReference: {fileID: 0}
-    - target: {fileID: 5024529518971853807, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.019356
-      objectReference: {fileID: 0}
-    - target: {fileID: 6493146363792432229, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_TagString
-      value: movePoint
-      objectReference: {fileID: 0}
     - target: {fileID: 6493146364457040794, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
       propertyPath: fullHealth
       value: 
@@ -2320,10 +2316,6 @@ PrefabInstance:
       propertyPath: spawnPoints.Array.data[2]
       value: 
       objectReference: {fileID: 753490281}
-    - target: {fileID: 6493146364457040799, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bad55d9f4a81884ebe3824d7398104a, type: 3}
 --- !u!1001 &8286526774357630840
