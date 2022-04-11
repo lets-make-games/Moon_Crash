@@ -8,6 +8,8 @@ public class EnemyAI : MonoBehaviour
     public Transform[] target;
     public float Stopping_Distance;
 
+    public int health = 2;
+
     void Update()
     {
         for (int i = 0; i < target.Length; i++)
@@ -15,6 +17,18 @@ public class EnemyAI : MonoBehaviour
             if (Vector2.Distance(transform.position, target[i].position) < Stopping_Distance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, target[i].position, Speed * Time.deltaTime);
+            }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("bullet"))
+        {
+            health--;
+            if (health == 0)
+            {
+                Destroy(gameObject);
             }
         }
     }
