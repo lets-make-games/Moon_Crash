@@ -8,6 +8,8 @@ public class door : MonoBehaviour
 
     private Animator Animator;
 
+   
+
     private AudioSource doorSound;
     private void Start()
     {
@@ -29,5 +31,8 @@ public class door : MonoBehaviour
             Animator.SetBool("isOpen", false);  //close animation
             doorSound.Play(0);
         }
+
+       
     }
+
 }

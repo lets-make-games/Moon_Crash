@@ -121,9 +121,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 2
   target:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 5594728805699686123, guid: 5efb4f50517e7f840848553f476f89f0, type: 3}
+  - {fileID: 3581134921927598761, guid: d971a622e2a768f459489f173d54cf29, type: 3}
+  - {fileID: 3581134921927598761, guid: d971a622e2a768f459489f173d54cf29, type: 3}
   Stopping_Distance: 3
   health: 2
 --- !u!114 &8378054198442502243

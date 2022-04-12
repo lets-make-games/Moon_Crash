@@ -11,6 +11,7 @@ TagManager:
   - movePoint
   - bullet
   - Wall
+  - Electricity
   layers:
   - Default
   - TransparentFX

@@ -17,7 +17,7 @@ public class playerHealth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("enemy"))
+        if (collision.CompareTag("enemy") || collision.CompareTag("Electricity"))
         {
             Health--;
             knockBack = collision.transform.position - transform.position;
