@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5770759696532780095}
   m_Layer: 0
   m_Name: Electric
-  m_TagString: Electricity
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
