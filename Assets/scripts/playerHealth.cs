@@ -24,6 +24,14 @@ public class playerHealth : MonoBehaviour
             movepoint.transform.position = transform.position - knockBack;
             HealthLoss();
         }
+        if (collision.CompareTag("gas"))
+        {
+            Health--;
+            knockBack = collision.transform.position - transform.position;
+            movepoint.transform.position = transform.position - knockBack;
+            HealthLoss();
+            collision.GetComponent<AudioSource>().Play();
+        }
     }
 
     void HealthLoss()
