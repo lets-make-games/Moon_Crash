@@ -6,6 +6,7 @@ public class PlayerShoot : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public AudioSource bulletSound;
 
     public float attack_Timer = .5f;
     private float current_Attack_Timer;
@@ -37,6 +38,7 @@ public class PlayerShoot : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                bulletSound.Play();
                 canAttack = false;
                 attack_Timer = 0f;
                 Shot();

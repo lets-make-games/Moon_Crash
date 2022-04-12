@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int health = 1;
+    public AudioSource deathSound;
 
     public float invulnPeriod = 0;
 
@@ -78,6 +79,7 @@ public class EnemyHealth : MonoBehaviour
     }
     void Die()
     {
+        deathSound.Play();
         Destroy(gameObject);
     }
 }
