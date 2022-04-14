@@ -12,12 +12,12 @@ public class MainMenu : MonoBehaviour
 
     public void Instruction()
     {
-        SceneManager.LoadScene("InstructionsScene");
+        SceneManager.LoadScene("Instructions");
     }
 
     public void Back()
     {
-        SceneManager.LoadScene("MarckScene");
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void Exit()
