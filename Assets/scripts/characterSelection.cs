@@ -12,16 +12,16 @@ public class characterSelection : MonoBehaviour
     public void soldierSelection()
     {
         PlayerPrefs.SetInt("character", 0);
-        SceneManager.LoadScene("MangoScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Map", LoadSceneMode.Single);
     }
     public void engineerSelection()
     {
         PlayerPrefs.SetInt("character", 1);
-        SceneManager.LoadScene("MangoScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Map", LoadSceneMode.Single);
     }
     public void SecuritySelection()
     {
         PlayerPrefs.SetInt("character", 2);
-        SceneManager.LoadScene("MangoScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("Map", LoadSceneMode.Single);
     }
 }
