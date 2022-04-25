@@ -14,21 +14,39 @@ public class playerHealth : MonoBehaviour
 
     private Vector3 knockBack;
 
+    private movement movement;
+
+    private void Start()
+    {
+        movement = GetComponent<movement>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("enemy"))
         {
             Health--;
-            knockBack = collision.transform.position - transform.position;
-            movepoint.transform.position = transform.position - knockBack;
+            if (!Physics2D.OverlapCircle(movement.movePoint.position, 1f, movement.WhatIsSolid))
+            {
+                knockBack = collision.transform.position - transform.position;
+                movepoint.transform.position = transform.position - knockBack;
+                float newx = Mathf.Round(movepoint.transform.position.x);
+                float newy = Mathf.Round(movepoint.transform.position.y);
+                movepoint.transform.position = new Vector2(newx, newy);
+            }
             HealthLoss();
         }
         if (collision.CompareTag("gas"))
         {
             Health--;
-            knockBack = collision.transform.position - transform.position;
-            movepoint.transform.position = transform.position - knockBack;
+            if (!Physics2D.OverlapCircle(movement.movePoint.position, 1f, movement.WhatIsSolid))
+            {
+                knockBack = collision.transform.position - transform.position;
+                movepoint.transform.position = transform.position - knockBack;
+                float newx = Mathf.Round(movepoint.transform.position.x);
+                float newy = Mathf.Round(movepoint.transform.position.y);
+                movepoint.transform.position = new Vector2(newx, newy);
+            }
             HealthLoss();
             collision.GetComponent<AudioSource>().Play();
         }
@@ -48,9 +66,7 @@ public class playerHealth : MonoBehaviour
         {
             halfHealth.enabled = false;
         }
-        float newx = Mathf.Round(movepoint.transform.position.x);
-        float newy = Mathf.Round(movepoint.transform.position.y);
-        movepoint.transform.position = new Vector2(newx, newy);
+
         GetComponent<AudioSource>().Play();
     }
 }
