@@ -223,7 +223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10.2589, y: -221.2771}
+  m_AnchoredPosition: {x: -3.53014, y: -221.2771}
   m_SizeDelta: {x: 195.6311, y: 45.311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &148686521
@@ -248,8 +248,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Soldier
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 42df1c7856584b6b8db9a509b6b10074, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e9b589591b0c17a46b8f9369c1942241, type: 2}
+  m_sharedMaterial: {fileID: 6980261234570411411, guid: e9b589591b0c17a46b8f9369c1942241, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -230.32529, y: 0, z: 294.0323, w: 0}
+  m_margin: {x: -230.32529, y: 0, z: 277.13776, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -440,7 +440,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 56, y: 225}
+  m_AnchoredPosition: {x: 53, y: 225}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &929549579
@@ -465,8 +465,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Choose a character to start Play !
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 42df1c7856584b6b8db9a509b6b10074, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e9b589591b0c17a46b8f9369c1942241, type: 2}
+  m_sharedMaterial: {fileID: 6980261234570411411, guid: e9b589591b0c17a46b8f9369c1942241, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -230.32529, y: 0, z: -124.96358, w: 0}
+  m_margin: {x: -230.32529, y: 0, z: -146.8755, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -617,7 +617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 299, y: -221.28}
+  m_AnchoredPosition: {x: 305.72876, y: -221.28}
   m_SizeDelta: {x: 250.7893, y: 45.311}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644652985
@@ -642,8 +642,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Engineer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 42df1c7856584b6b8db9a509b6b10074, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e9b589591b0c17a46b8f9369c1942241, type: 2}
+  m_sharedMaterial: {fileID: 6980261234570411411, guid: e9b589591b0c17a46b8f9369c1942241, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -883,7 +883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 555.27124, y: -221.2771}
+  m_AnchoredPosition: {x: 562, y: -221.2771}
   m_SizeDelta: {x: 181.242, y: 45.3105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1801117830
@@ -908,8 +908,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Guard
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 42df1c7856584b6b8db9a509b6b10074, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e9b589591b0c17a46b8f9369c1942241, type: 2}
+  m_sharedMaterial: {fileID: 6980261234570411411, guid: e9b589591b0c17a46b8f9369c1942241, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
