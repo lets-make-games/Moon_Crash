@@ -26,14 +26,14 @@ public class playerHealth : MonoBehaviour
         if (collision.CompareTag("enemy"))
         {
             Health--;
-            if (!Physics2D.OverlapCircle(movement.movePoint.position, 1f, movement.WhatIsSolid))
+           /* if (!Physics2D.OverlapCircle(movement.movePoint.position, 1f, movement.WhatIsSolid))
             {
                 knockBack = collision.transform.position - transform.position;
                 movepoint.transform.position = transform.position - knockBack;
                 float newx = Mathf.Round(movepoint.transform.position.x);
                 float newy = Mathf.Round(movepoint.transform.position.y);
                 movepoint.transform.position = new Vector2(newx, newy);
-            }
+            } */
             HealthLoss();
         }
         if (collision.CompareTag("gas"))
@@ -56,7 +56,7 @@ public class playerHealth : MonoBehaviour
     {
         if (Health == 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
         else if (Health == 2)
         {
