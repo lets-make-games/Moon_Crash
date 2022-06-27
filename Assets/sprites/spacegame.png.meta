@@ -201,6 +201,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1540,6 +1541,66 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      spacegame_8: 1453581095480774608
+      spacegame_58: 6309062361522249297
+      spacegame_9: -5682882745242876964
+      spacegame_35: -1676793997484331482
+      spacegame_41: -1980664060487478218
+      spacegame_26: -2967260295810586021
+      spacegame_5: 7069666321029206017
+      spacegame_44: 2554119148308604356
+      spacegame_10: -25478771079114524
+      spacegame_19: -5505198425924156414
+      spacegame_3: -2399421756572916587
+      spacegame_11: 5700118682236450902
+      spacegame_28: 5415673579663913888
+      spacegame_47: 3719074873119033183
+      spacegame_20: -313086022747663726
+      spacegame_0: -4744192196180122878
+      spacegame_1: -7452457052738204261
+      spacegame_45: -2798845983305622251
+      spacegame_18: -1457790192248906324
+      spacegame_43: 5882704060978212864
+      spacegame_6: 6230781968777169900
+      spacegame_21: 4183120434554468793
+      spacegame_24: 4663919689764023627
+      spacegame_2: 6112619454763373228
+      spacegame_7: -5736726438953807249
+      spacegame_38: -3739115577784003954
+      spacegame_49: 3698534470775849029
+      spacegame_15: -3097889498099852044
+      spacegame_55: 3639162007471667378
+      spacegame_4: -2732123110218009097
+      spacegame_17: -5869052849593289634
+      spacegame_50: -3094212831881128343
+      spacegame_29: -2651159729911648446
+      spacegame_16: -451001140862252322
+      spacegame_25: 2563688577418154969
+      spacegame_33: 7175328840215205869
+      spacegame_12: -1202055703757520812
+      spacegame_31: -1875714266162078063
+      spacegame_54: 7970061800629740577
+      spacegame_39: 8491688637867863766
+      spacegame_27: -9220021170774274280
+      spacegame_36: 1384927610488764491
+      spacegame_57: 8349641296808144064
+      spacegame_51: 9183093079476808459
+      spacegame_37: -5623487507985276111
+      spacegame_34: 7086490676905415396
+      spacegame_32: -6660087999839099143
+      spacegame_48: 3892419762076029428
+      spacegame_23: 4595449034576797108
+      spacegame_30: 4552528840556313526
+      spacegame_14: 6439954090625294619
+      spacegame_40: 5453971007426724917
+      spacegame_53: 5847504317553201097
+      spacegame_13: 5022793927893095936
+      spacegame_52: -6723441707324954597
+      spacegame_56: 5204115862527815970
+      spacegame_22: 7868346560377944950
+      spacegame_46: 6618523662497756628
+      spacegame_42: 3532761726744327344
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
